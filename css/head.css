@@ -1,0 +1,142 @@
+.h {
+  width: 100%;
+  height: 80px;
+  background-image: url("../images/data2.home.nav.bg.png");
+}
+.h .w {
+  height: 80px;
+}
+.h .w .logo {
+  width: 20%;
+  height: 80px;
+  float: left;
+}
+.h .w .logo img {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+.h .w ul {
+  width: 57%;
+  height: 80px;
+  float: left;
+}
+.h .w ul li {
+  width: 14%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+.h .w ul li .t {
+  width: 100%;
+  height: 80px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.h .w ul li .t p {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+.h .w ul li .t p a {
+  color: #827c79;
+}
+.h .w ul li .t span {
+  display: block;
+  width: 100%;
+  color: #827c79;
+  text-align: center;
+}
+.h .w ul li .t span a {
+  color: #827c79;
+  font-size: 12px;
+  font-family: "黑体";
+}
+.h .w ul li .t:hover a {
+  color: #00c0ff;
+}
+.h .w ul li .erjidaohang {
+  width: 100px;
+  float: left;
+  display: none;
+  height: 300px;
+  background-image: url("../images/data2.home.submenu.bg.png");
+  background-size: cover ;
+}
+.h .w ul li .erjidaohang li {
+  margin-top: 10px;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-family: 700;
+  color: #cac7c5;
+  font-size: 15px;
+}
+.h .w ul li .erjidaohang li a:hover {
+  color: #00c0ff;
+}
+.h .w .denglu {
+  float: right;
+  width: 23%;
+}
+.h .w .denglu .tupian {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 13px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #827c79;
+  position: relative;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+.h .w .denglu .tupian a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: url('../images/jinglingtu2.png') 0 -463px;
+  position: absolute;
+  left: 13px;
+  top: 12px;
+}
+.h .w .denglu .wenzi {
+  float: left;
+  padding-top: 18px;
+  box-sizing: border-box;
+  width: 190px;
+  height: 80px;
+}
+.h .w .denglu .wenzi .one {
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+}
+.h .w .denglu .wenzi .one a {
+  margin-left: 5px;
+  color: #00c0ff;
+  font-size: 20px;
+}
+.h .w .denglu .wenzi span {
+  width: 100%;
+  font-size: 12px;
+  color: #827c79;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.dabj{
+  /* display: block; */
+    height: 410px;
+    width: 1200px;
+    background: url("../images/bg.jpg") no-repeat top center ;
+
+}

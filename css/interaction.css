@@ -1,0 +1,257 @@
+body{
+    background-color:#0f1314;
+}
+
+.lis{
+    float: left;
+    
+}
+.lis img{
+
+    width: 100%; 
+}
+.lis > ul > li > a >img:hover{
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    box-shadow: 0px 0px  10px aqua;  
+    
+}
+
+.lis li{
+    width: 240px;
+    height: 80px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+.lis li:nth-child(7){
+    margin-bottom: 0px;
+}
+.content{
+    width: 930px;
+    float: right;
+    background-color: #fff; 
+    margin-bottom: 60px;
+}
+
+.content_top{
+    width: 930px;
+    height: 66px;
+    background-color: #ededed;
+    line-height: 66px;
+}
+.content_top_li1{
+        width: 5px;
+        height: 28px;
+        background-color: #379be9;
+        float: left;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+       
+}
+.content_top li{
+    float: left;
+    margin-right: 10px;
+}
+.content_top li:nth-child(2){
+    font-weight:  700;
+    font-size: 24px;
+    margin-right: 25px;
+}
+.content_top li:hover{
+    color: red;
+    cursor: pointer;
+}
+.content_b1_right:hover{
+   box-shadow: 0px 0px  10px #0f1314;   
+   transform: translateY(-10px);
+  
+}
+.content_b1_left:hover{
+    transform: translateY(-10px);
+   
+}
+span:hover{
+    color: red;
+    cursor: pointer;
+}
+h2:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.content_b1{
+
+    width: 845px;
+    height: 240px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+
+}
+.content_b1:nth-child(1){
+    margin-top: 40px;
+}
+
+
+.content_b1:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.content_b1_left video{
+    width: 425px;
+    height: 240px;
+    float: left;
+}
+.content_b1_right{
+   width: 400px;
+   height: 240px;
+   float:left;
+   margin-left: 20px;
+}
+.content_b1_right > h2 {
+    font-size: 28px;
+
+}
+.content_b1_right > span {
+    font-size: 20px;
+}
+.jm{
+    width: 400px;
+    height: 240px;
+    float:left;
+    margin-left: 0px;
+    
+   
+}
+.mj{
+    width: 425px;
+    height: 240px;
+    float: left;
+    margin-left: 20px;
+}
+.hg{
+    line-height: 30px;
+}
+
+.content_foot_left{
+    float: left;
+    margin-left: 146px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    width: 300px;
+    height: 62px;
+    
+}
+.content_foot_left:hover{
+   box-shadow: 0px 0px 13px red;
+}
+.content_foot_left img{
+    margin-left: 1px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+
+}
+.content_foot_right img{
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+
+.content_foot_right{
+    float:right;
+    margin-top: 40px;
+    margin-right: 132px;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 62px;
+}
+
+.content_foot_right:hover{
+   box-shadow: 0px 0px 10px blue;
+
+}
+
+.content_foot img{
+    width: 100%;
+    height: 100%;
+}
+/* 左侧列表下 客服 */
+.service{
+    width: 240px;
+    height: 280px;
+    background-color: #363e47;
+    margin-top: 50px;
+  
+}
+.service_top {
+    height: 80px;
+    margin-left: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.service_top p:nth-child(1){
+    color: red;
+} 
+.service_top p:nth-child(2){
+    color: #fff;
+} 
+.service_centre{
+    height: 105px;
+    margin-left: 9px;
+}
+.service_centre_left img{
+   width: 90px;
+   height: 90px;
+   float: left;
+   cursor: pointer;
+  
+}
+.service_centre_left img:hover{
+    box-shadow: 0px 0px 13px #fff;
+}
+
+.service_centre_right{
+    float: left;
+    width: 123px;
+    height: 90px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.service_centre_right p{
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+.service_centre_right span {
+    color: #379be9;
+}
+.service_foot_or{
+    border-top: #495159 1px solid;
+    border-bottom: #495159 1px solid;
+    width: 218px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.service_foot_wb{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.service_foot_wb img{
+    margin-top: 7px;
+    width: 80px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+.service_foot_wb p{
+    color: #fff;
+    cursor: pointer;
+
+}

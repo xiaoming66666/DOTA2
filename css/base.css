@@ -1,0 +1,38 @@
+/*公共文件 去掉标签默认样式*/
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,ol,dt,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+img,input {
+	border: none;
+	outline-style: none;
+	padding: 0;
+}
+/*清除浮动*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/*版心*/
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
